@@ -1,0 +1,442 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.padding-remove{
+  padding: 0 !important;
+}
+.rehlatMain{
+  overflow: hidden;
+}
+.rehlatMain-header-bg{
+  background: #e7ecef;
+  width: 100%;
+  overflow: hidden;
+}
+.rehlatMain-header{
+  padding-top: 30px !important;
+  z-index: 999;
+}
+.rehlatMain-logo{
+  width: 30%;
+}
+img{
+  width: 100%;
+  height: 100%;
+}
+.rehlat-mobile-icon{
+  width: 20%;
+  float: left;
+}
+.rehlat-mobile-icon h1{
+  margin: 0;
+  color: #6c757d;
+  font-size: 24px;
+}
+.rehlat-mobile-icon-number{
+  width: 80%;
+  float: left;
+}
+.rehlat-mobile-icon-number h3{
+  margin: 0;
+  color: #dd3334;
+  font-size: 15px;
+}
+.rehlat-mobile-icon-number p{
+  margin: 0;
+  color: #6c757d;
+      font-size: 9px;
+    font-weight: 600;
+}
+.rehlat-sign-logo{
+  overflow: hidden;
+}
+.rehlat-sign{
+  position: relative;
+  top: -7px;
+}
+.rehlat-sign-logo h2{
+  margin: 0;
+  color: #6c757d;
+  text-align: center;
+  font-size: 24px; 
+}
+.rehlat-sign-register{
+  overflow: hidden;
+}
+.rehlat-sign-register h4{
+  margin: 0;
+  color: #6c757d;
+  text-align: center;  
+  font-family: sans-serif;
+  font-size: 14px;
+  padding-top: 5px;
+}
+.sign{
+  padding: 0 4px 0 0;
+  border-right: 1px solid #6c757d;
+}
+.register{
+  padding: 0 0 0 4px;
+  border-left: 1px solid #6c757d;
+}
+.rehlat-lang-eng{
+  width: 50%;
+  float: right;
+}
+.languagepicker {
+  width: 100%;
+  background-color: #FFF;
+  display: inline-block;
+  padding: 0;
+  height: 40px;
+  overflow: hidden;
+  transition: all .3s ease;
+  /*margin: 0 50px 10px 0;*/
+  vertical-align: top;
+  float: left;
+  border: 1px solid #6c757d;
+}
+
+.languagepicker:hover {
+  /* don't forget the 1px border */
+  height: 81px;
+}
+
+.languagepicker a{
+  color: #000;
+  text-decoration: none;
+}
+
+.languagepicker li {
+  display: block;
+  padding: 0px 6px;
+
+  line-height: 40px;
+  border-top: 1px solid #EEE;
+  font-size: small;
+}
+
+.languagepicker li:hover{
+  background-color: #EEE;
+}
+
+.languagepicker a:first-child li {
+  border: none;
+  background: #FFF !important;
+}
+
+.languagepicker li img {
+  margin-right: 5px;
+}
+
+.rehlat-flight-hotel{
+  background: #fff;
+  border: 2px solid #184c88;
+  border-radius: 3px;
+  border-right-color: transparent;
+}
+
+.roundborders {
+  border-radius: 5px;
+}
+
+.large:hover {
+  height: 245px;
+}
+.navbar-nav{
+  width: 100% !important;
+}
+.nav-link:focus, .nav-link:hover {
+  -webkit-box-shadow: inset 2px -1px 50px 0px rgba(0,0,0,0.46);
+-moz-box-shadow: inset 2px -1px 50px 0px rgba(0,0,0,0.46);
+box-shadow: inset 2px -1px 50px 0px rgba(0,0,0,0.46);
+}
+.navbar-light .navbar-nav .nav-link {
+    /*color: rgba(0,0,0,.5);*/
+    color: #fff !important;
+    font-size: 13px !important;
+    width: 12.5% !important;
+    text-align: center;
+    background: #184c88 !important;
+        font-weight: 600;
+}
+.navbar{
+  padding: 0 !important;
+}
+.nav-link{
+  padding: 12px 10px !important;
+}
+#special-color{
+  background: #dd3334 !important;
+}
+.rehlat-flight-hotel-main{
+  overflow: hidden;
+  background-image: url("../images/bg-banner.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 40px 0 !important;
+  margin-top: -34px;
+}
+.rehlat-flight-hotel-subMain{
+  /*border: 2px solid #184c88;*/
+}
+/**************tab stat****************/
+.card {
+    background-color: transparent;
+    background-clip: border-box !important;
+    border: 0px solid rgba(0,0,0,.125) !important;
+    border-radius: 0 !important;
+}
+.card-header{
+  padding-top: 0 !important;
+  background: transparent !important;
+  border: 1px solid transparent !important;
+}
+.row{
+  margin-right: 0px !important; 
+    margin-left: 0px !important;
+}
+.tab-card-header > .tab-content {
+  padding-bottom: 0;
+}
+.navPadding{
+      font-size: 14px;
+    font-weight: 500;
+  padding: 8px 20px !important;
+  border: 0px solid transparent !important
+      margin-right: 0px !important;
+}
+.navPadding:hover{
+  -webkit-box-shadow: inset 0px 0px 2px 0px rgba(0,0,0,0.46);
+-moz-box-shadow: inset 0px 0px 2px 0px rgba(0,0,0,0.46);
+box-shadow: inset 0px 0px 2px 0px rgba(0,0,0,0.46);
+}
+.arrangeName{
+      font-size: 12px !important;
+    font-weight: 600 !important;
+    padding: 5px 38px !important;
+}
+.span12{
+  padding-top: 18px !important;
+}
+.flex-height{
+  display: flex;
+}
+.col {
+  flex: 1; 
+}
+.radio-button{
+  padding: 12px 0;
+}
+.radio-button span{
+  font-size: 13px;
+  font-weight: 600;
+
+}
+.input-lg{
+  width: 100%;
+  padding: 18px 10px !important;
+  font-size:16px;
+}
+.input-padding1{
+  padding: 0 10px 0 0 !important;
+}
+.input-padding2{
+  padding: 0  0 0 10px!important;
+}
+.position-arrange{
+  position: relative;
+  top: -20px;
+}
+.label-name{
+  font-size: 11px;
+  font-weight: 600;
+}
+.icon-input{
+      position: relative;
+    top: -60px;
+    left: 77%;
+}
+.btn-color-bg{
+    background: #ffd302 !important;
+    color: #184c88 !important;
+    font-weight: 700;
+    width: 100%;
+    padding: 8px 0 !important;
+}
+.SUMBIT-btn{
+  margin: 22px 0 0; 
+}
+.SUMBIT-btn span{
+position: relative;
+    left: 15%;
+  }
+.whyBook{
+    background: #184c88;
+    color: #fff;
+    padding-left: 20px !important;
+    padding-top: 45px !important
+}
+.whyBook p{
+  color: #ffd302;
+      font-weight: 600;
+    padding: 0 0 0 11px;
+}
+.whyBook ul {
+  list-style: none;
+}
+
+.whyBook ul li:before {
+  content: '✓';
+  color: #fed404;
+  font-size: 19px;
+  padding: 0 10px 0 0;
+  font-weight: 600;
+}
+.cardVisit{
+  overflow: hidden;
+}
+
+.cardVisit p{
+  font-size: 38px;
+    padding: 0 0 0 48px;
+    color: #022d58;
+}
+.getLower{
+  background: #ffd302;
+  padding: 25px 0 !important;
+}
+.getLower h3{
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  text-align: center;
+  color: #022d58;
+      padding: 30px 0;
+}
+.getLower p{
+    font-size: 10px;
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+    color: #022d58;
+    /*padding: 26px 0;*/
+        line-height: 1;
+}
+.search-bar{
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+.mail{
+    position: relative;
+    top: -2px;
+    left: 34px;
+  }
+.mail-search{
+  padding-left: 30px !important;
+    width: 60%;
+}  
+.mail .fa-envelope{
+  font-size: 22px;
+}
+.search-bar button{
+      padding: 1% 5%;
+    position: relative;
+    top: -5px;
+}
+.top-destination{
+  overflow: hidden;
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+  background: #e7ecef;
+}
+.top-destination h3{
+  font-size: 19px;
+    font-weight: 600;
+    color: #3f434f;
+    text-align: center;
+    text-transform: uppercase;
+}
+.tour-pLan-set{
+  overflow: hidden;
+  padding: 0 8px 12px !important;
+}
+.tour-pLan-image{
+  height: 160px;
+}
+.tour-pLan-image img{
+  width: 100% !important;
+  height: 100% !important;
+}
+.tour-pLan-Rate-place{
+  padding: 15px 8px 10px !important;
+  background: #fff;
+}
+.tour-pLan-Rate h4{
+    margin: 0;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.tour-pLan-place{
+
+}
+.tour-pLan-place h4{
+   margin: 0;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
+  text-align: right;
+}
+.tour-pLan-place p{
+  margin: 0;
+  font-size: 11px;
+  text-align: right;
+}
+.top-hotel-Main{
+  overflow: hidden;
+  padding-top: 30px !important;
+  padding-bottom: 200px !important;
+}
+.top-hotel-Main h4{
+    margin: 0;
+    font-size: 19px;
+    font-weight: 600;
+    color: #3f434f;
+    text-align: center;
+    text-transform: uppercase;
+}
+.top-hotel-height{
+  height: 160px;
+}
+.top-hotel-height img{
+  width: 100%;
+  height: 100%;
+}
+.top-hotel-image{
+  padding: 0 8px !important;
+}
+.top-hotel-resort{
+  padding: 0 8px !important; 
+}
+.top-resort-detial{
+  margin-top: 10px !important;
+}
+.top-resort-detial h3{
+  font-size: 18px;
+  margin: 0;
+  margin-bottom: 4px;
+}
+.top-resort-detial p{
+  font-size: 13px;
+    font-weight: 600;
+}
+.top-resort-detial p span{
+  font-size: 20px;
+    padding: 0 5px 0 0;
+}
+.top-hotel{
+  margin-top: 20px; 
+}
